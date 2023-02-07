@@ -1,7 +1,24 @@
-.container-fluid {
+.header {
     background: linear-gradient(to right, #000 0%, #707070 100%);
     height: 72px;
 }
 .logofzyih {
     width: 12%;
 }
+.section1 {
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    height: 600px;
+}
+.image1 {
+    object-fit: cover;
+    height: 600px;
+}
+.image2 {
+    width: 486px;
+    height: 552px;
+}
+.image3 {
+    width: 486px;
+    height: 552px;
+}
+
