@@ -1,11 +1,29 @@
-.header {
+* {
+    --main-bg-gradient: linear-gradient(to right, #000 0%, #707070 100%);
+}
+/* Header */
+header {
     height: 72px;
 }
-.logofzyih {
-    width: 15%;
+nav {
+    background: var(--main-bg-gradient);
 }
+nav .nav-item a,
+nav .navbar-brand {
+    color: white;
+}
+nav .nav-item a:hover,
+nav .navbar-brand:hover {
+    color: white;
+}
+.logofzyih {
+    width: 75px;
+}
+
+/* Section One */
 .section1 {
-    height: 600px;
+    /* height: 600px; */
+    background: var(--main-bg-gradient);
 }
 .image1 {
     object-fit: cover;
@@ -22,11 +40,10 @@
 p {
     margin-top: revert !important;
 }
-.background {
-    background: linear-gradient(to right, #000 0%, #707070 100%);
-}
-.foooter {
+
+footer {
     height: 426px;
+    background: var(--main-bg-gradient);
 }
 .avatar {
     width: 140px;
@@ -34,7 +51,30 @@ p {
 }
 .justifier {
     text-align: justify;
+    font-size: 18px;
 }
 .mention {
     height: 50px;
+}
+.carré1 {
+    width: 386px;
+    height: 452px;
+    top: -23px;
+    left: 62px;
+    z-index: -1;
+}
+.carré2 {
+    width: 200px;
+    height: 200px;
+    top: -19px;
+    left: 389px;
+    z-index: -1;
+}
+.bordure {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bordure1 {
+    padding: 10px;
+    --bs-border-width: 3px;
 }
