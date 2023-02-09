@@ -1,0 +1,23 @@
+* {
+    --main-bg-gradient: linear-gradient(to right, #000 0%, #707070 100%);
+    font-family: "Poppins";
+}
+
+/* Header */
+header {
+    height: 72px;
+}
+nav {
+    background: var(--main-bg-gradient);
+}
+nav .nav-item a,
+nav .navbar-brand {
+    color: white;
+}
+nav .nav-item a:hover,
+nav .navbar-brand:hover {
+    color: white;
+}
+.logo {
+    width: 75px;
+}

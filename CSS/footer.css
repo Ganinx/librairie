@@ -1,0 +1,15 @@
+footer {
+    /* height: 426px; */
+    background: var(--main-bg-gradient);
+}
+.avatar {
+    width: 140px;
+}
+.mention {
+    height: 50px;
+}
+@media only screen and (max-width: 500px) {
+    .avatar {
+        width: 60px;
+    }
+}
