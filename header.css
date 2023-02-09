@@ -25,29 +25,16 @@ nav .navbar-brand:hover {
     /* height: 600px; */
     background: var(--main-bg-gradient);
 }
-.image1 {
-    object-fit: cover;
-    height: 600px;
-}
-.image2 {
-    width: 486px;
-    height: 552px;
-}
-.image3 {
-    width: 486px;
-    height: 552px;
-}
 p {
     margin-top: revert !important;
 }
 
 footer {
-    height: 426px;
+    /* height: 426px; */
     background: var(--main-bg-gradient);
 }
 .avatar {
     width: 140px;
-    height: 140px;
 }
 .justifier {
     text-align: justify;
@@ -77,4 +64,19 @@ footer {
 .bordure1 {
     padding: 10px;
     --bs-border-width: 3px;
+}
+@media only screen and (max-width: 500px) {
+    .avatar {
+        width: 60px;
+    }
+    footer {
+        height: auto;
+    }
+    .colonne {
+        width: 33% !important;
+    }
+    .bordure2 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
