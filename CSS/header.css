@@ -21,3 +21,30 @@ nav .navbar-brand:hover {
 .logo {
     width: 75px;
 }
+.accueil::before,
+.nos-cv::before,
+.portefolio::before {
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out, right 0.4s ease-in-out;
+    content: "";
+    left: 28px;
+    right: calc(100% + 6px);
+    bottom: -0.1875rem;
+    position: absolute;
+    background-color: #f8c500;
+    height: 0.125rem;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+.accueil:hover,
+.nos-cv:hover,
+.portefolio:hover {
+    right: 29px;
+    opacity: 1;
+    visibility: visible;
+}
+.accueil,
+.nos-cv,
+.portefolio {
+    position: relative;
+}
